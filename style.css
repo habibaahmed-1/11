@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    font-family:  "Roboto Mono", serif;
+    padding:0% ;
+    margin: 0%;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    
+  
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 25px;
+}
+.logo{
+    font-size: 70px;
+}
+.ul{
+    width: 40%;
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    padding:20px;
+    font-size: 20px;
+   
+}
+ul a{
+    border-bottom: 2px solid transparent;
+    
+}
+
+ul a:hover{
+    border-bottom-color: black;
+}
+.menu{
+    font-size: 15px;
+    font-style: oblique;
+
+}
+.menu a{
+    cursor:context-menu;
+    color: rgb(0, 0, 0);
+}
+.menu a:hover{
+    color: rgb(138, 117, 117);
+    
+}
+.newbar{
+    width: 75px;
+    height: 25px;
+    overflow: hidden;
+}
+.newbar:hover{
+    width: max-content;
+    height: max-content;
+}
+
+
+
+.search{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    
+    
+}
+
+.fa-house,.fa-heart,.fa-user{
+    color: black;
+    padding: 10px;
+
+}
+.fa-heart:hover{
+    color: rgba(36, 36, 34, 0.733);
+}
+.fa-house:hover{
+    color: rgba(36, 36, 34, 0.459);
+
+}
+.fa-user:hover{
+    color: rgba(36, 36, 34, 0.733);
+}
+.content{
+    
+        display: flex;
+        flex-wrap:wrap;
+        
+        
+      
+}
+.card{
+  background-color: #dddcdcb6;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  line-height: 40px;
+  font-size: 30px;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+
+.photo1{
+    
+    background-image: url(1.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo1:hover{
+    
+    background-image: url(1.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo2{
+    
+    background-image: url(ph3.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo2:hover{
+    
+    background-image: url(ph3.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo3{
+    
+    background-image: url(3.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo3:hover{
+    
+    background-image: url(3.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo4{
+    
+    background-image: url(4.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo4:hover{
+    
+    background-image: url(4.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.photo5{
+    
+    background-image: url(5.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo5:hover{
+    
+    background-image: url(5.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo6{
+    
+    background-image: url(6.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo6:hover{
+    
+    background-image: url(6.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo7{
+    
+    background-image: url(7.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo7:hover{
+    
+    background-image: url(7.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo8{
+    
+    background-image: url(8.png);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.photo8:hover{
+    
+    background-image: url(8.png);
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.pp{
+    font-size: 16px;
+    color: gray;}
+
+.price{
+    font-size: 20px;
+    }
+.buy{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+}
+.buy:hover{
+    background-color: transparent;
+    color: black;
+}
+.bar{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    font-style: oblique;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bar:hover{
+    background-color:transparent;
+    color:black;
+    height: 40px;
+    font-style: oblique;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.pricee{
+    display: inline;
+    font-size: medium;
+    text-decoration: line-through;
+    color: rgba(167, 51, 51, 0.644);
+    
+}
+.priceee{
+    display: inline;
+    font-size:20px;
+}
