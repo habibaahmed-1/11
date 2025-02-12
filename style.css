@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
-    font-family:  "Roboto Mono", serif;
+    font-family: 'Bebas Neue', cursive;
     padding:0% ;
     margin: 0%;
 }
-
 
 a{
     color: black;
@@ -36,17 +35,24 @@ header{
     padding-top: 25px;
 }
 
-.logo{
-    font-size: 70px;
-}
+    
 
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    margin: 3px;
+    font-style: oblique;
+}
 .ul{
+    height: 100%;
     width: 40%;
     display: flex;
     list-style:none;
     justify-content: space-evenly;
     padding:20px;
-    font-size: 20px;
+    font-size: 25px;
    
 }
 
@@ -60,7 +66,7 @@ ul a:hover{
 }
 
 .menu{
-    font-size: 15px;
+    font-size: 20px;
     font-style: oblique;
 
 }
@@ -87,10 +93,15 @@ ul a:hover{
 }
 
 .search{
-    width: 120px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     border-radius: 30px;
 }
+.search:hover{
+    width: 300px;
+    height: 55px;
+}
+
 
 .fa-house,.fa-heart,.fa-user{
     color: black;
@@ -138,6 +149,7 @@ ul a:hover{
 
 .photo1:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .photo2{
@@ -151,6 +163,7 @@ ul a:hover{
 
 .photo2:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .photo3{
@@ -164,6 +177,7 @@ ul a:hover{
 
 .photo3:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .photo4{
@@ -177,6 +191,7 @@ ul a:hover{
 
 .photo4:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .photo5{
@@ -190,6 +205,7 @@ ul a:hover{
 
 .photo5:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .photo6{
@@ -203,6 +219,7 @@ ul a:hover{
 
 .photo6:hover{
     height: 400px;
+    background-size:contain;
 }
 .photo7{
     background-image: url(7.png);
@@ -214,6 +231,7 @@ ul a:hover{
 
 .photo7:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .photo8{
@@ -226,15 +244,16 @@ ul a:hover{
 
 .photo8:hover{
     height: 400px;
+    background-size:contain;
 }
 
 .pp{
-    font-size: 16px;
+    font-size: 20px;
     color: gray;
 }
 
 .price{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .buy{
@@ -266,5 +285,5 @@ ul a:hover{
 span{
     color: rgba(150, 76, 76, 0.61);
     text-decoration: line-through;
-    font-size: 15px;
+    font-size: 18px;
 }
